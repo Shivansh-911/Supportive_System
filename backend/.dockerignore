@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.git/
+logs.txt
+answer.txt
+final_answer.txt
+vector_chunks.txt
+fused_chunk.txt
+bm25_chunks.txt
+tests/
+JSON files/
+.DS_Store

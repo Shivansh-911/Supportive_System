@@ -15,7 +15,9 @@ env = environ.Env(
     SESSION_COOKIE_SECURE=(bool, False),
     CSRF_COOKIE_SECURE=(bool, False),
 )
-environ.Env.read_env(BASE_DIR / f'.env.{DJANGO_ENV}')
+_env_file = BASE_DIR / f'.env.{DJANGO_ENV}'
+if _env_file.exists():
+    environ.Env.read_env(_env_file)
 
 # Initialize New Relic here so it instruments all entry points (runserver, gunicorn, management commands).
 # wsgi.py also calls initialize() but that is never executed by manage.py runserver.
@@ -99,10 +101,12 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
-    'http://127.0.0.1:3000',
-]
+CORS_ALLOWED_ORIGINS = env.list(
+    'CORS_ALLOWED_ORIGINS',
+    default=['http://localhost:3000', 'http://127.0.0.1:3000'],
+)
+CSRF_TRUSTED_ORIGINS = env.list('CSRF_TRUSTED_ORIGINS', default=[])
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 REST_FRAMEWORK = {
     'DEFAULT_RENDERER_CLASSES': ['rest_framework.renderers.JSONRenderer'],
@@ -123,15 +127,12 @@ _logging_formatters = {
     },
 }
 _logging_handlers = {
-    'file': {
-        'class': 'logging.FileHandler',
-        'filename': BASE_DIR / 'logs.txt',
-        'mode': 'a',
-        'encoding': 'utf-8',
+    'stdout': {
+        'class': 'logging.StreamHandler',
         'formatter': 'standard',
     },
 }
-_root_handlers = ['file']
+_root_handlers = ['stdout']
 
 if _NEWRELIC_AVAILABLE:
     _logging_formatters['newrelic'] = {'()': 'newrelic.agent.NewRelicContextFormatter'}

@@ -14,6 +14,7 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
+        ('core', '0000_enable_vector'),
         ('process_agent', '__first__'),
     ]
 
