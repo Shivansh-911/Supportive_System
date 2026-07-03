@@ -1,0 +1,52 @@
+@use '../../styles/variables' as *;
+
+.source-links {
+  display: flex;
+  align-items: flex-start;
+  gap: $spacing-sm;
+  flex-wrap: wrap;
+  padding-top: $spacing-sm;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  margin-top: $spacing-sm;
+
+  &__label {
+    font-size: $font-size-label-sm;
+    font-weight: 500;
+    color: $outline;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    line-height: 22px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  &__tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 10px;
+    background: rgba(195, 192, 255, 0.08);
+    border: 1px solid rgba(195, 192, 255, 0.2);
+    border-radius: $radius-full;
+    color: $tertiary;
+    font-size: $font-size-label-sm;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background 0.15s ease, border-color 0.15s ease;
+
+    &:hover {
+      background: rgba(195, 192, 255, 0.15);
+      border-color: rgba(195, 192, 255, 0.4);
+      color: $tertiary;
+    }
+
+    svg {
+      flex-shrink: 0;
+    }
+  }
+}

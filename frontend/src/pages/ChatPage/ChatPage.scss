@@ -1,0 +1,126 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.chat-page {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+
+  &__main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  &__messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: $spacing-lg 150px;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 900px) {
+      padding: $spacing-md $spacing-md;
+    }
+  }
+}
+
+// Empty state
+.empty-state {
+  flex: 1;
+  @include flex-center;
+  flex-direction: column;
+  gap: $spacing-sm;
+  text-align: center;
+  padding: $spacing-xl;
+
+  &__icon {
+    @include flex-center;
+    width: 52px;
+    height: 52px;
+    border-radius: $radius-lg;
+    background: rgba(221, 184, 255, 0.07);
+    border: 1px solid rgba(221, 184, 255, 0.18);
+    color: $primary;
+    margin-bottom: $spacing-sm;
+  }
+
+  &__title {
+    font-size: $font-size-headline-md;
+    font-weight: 600;
+    color: $on-surface;
+    letter-spacing: -0.01em;
+    margin: 0;
+  }
+
+  &__sub {
+    font-size: $font-size-body-md;
+    color: $on-surface-variant;
+    max-width: 380px;
+    line-height: 1.6;
+    margin: 0;
+  }
+}
+
+// Thinking bubble — matches AI bubble avatar column layout
+.thinking-bubble {
+  display: flex;
+  align-items: flex-start;
+  gap: $spacing-sm;
+  margin-bottom: $spacing-md;
+
+  &__avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: $radius-full;
+    background: rgba(221, 184, 255, 0.08);
+    border: 1px solid rgba(221, 184, 255, 0.2);
+    color: $primary;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  &__card {
+    @include glass-card;
+    @include amethyst-shadow;
+    padding: $spacing-sm $spacing-md;
+    display: flex;
+    align-items: center;
+  }
+
+  &__dots {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+    span {
+      width: 6px;
+      height: 6px;
+      border-radius: $radius-full;
+      background: $primary;
+      opacity: 0.5;
+      animation: thinking-pulse 1.4s ease-in-out infinite;
+
+      &:nth-child(2) { animation-delay: 0.2s; }
+      &:nth-child(3) { animation-delay: 0.4s; }
+    }
+  }
+}
+
+@keyframes thinking-pulse {
+  0%, 80%, 100% {
+    transform: scale(0.7);
+    opacity: 0.25;
+  }
+  40% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+}

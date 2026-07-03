@@ -1,0 +1,71 @@
+@use 'sass:color';
+@use 'variables' as *;
+
+@mixin glass-card {
+  background: rgba(26, 19, 41, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: $radius-lg;
+}
+
+@mixin glass-card-hover {
+  @include glass-card;
+  transition: border-color 0.2s ease, background 0.2s ease;
+  &:hover {
+    background: rgba(34, 29, 46, 0.85);
+    border-color: rgba(221, 184, 255, 0.15);
+  }
+}
+
+@mixin glow-button {
+  background: linear-gradient(135deg, $primary-container, color.adjust($primary-container, $lightness: -12%));
+  color: $on-primary;
+  border: none;
+  border-radius: $radius-full;
+  box-shadow: 0 0 16px rgba(192, 132, 252, 0.35);
+  transition: box-shadow 0.2s ease, transform 0.1s ease;
+
+  &:hover:not(:disabled) {
+    box-shadow: 0 0 24px rgba(192, 132, 252, 0.55);
+    transform: scale(1.04);
+  }
+
+  &:active:not(:disabled) {
+    transform: scale(0.97);
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    box-shadow: none;
+  }
+}
+
+@mixin focus-input {
+  border-color: $primary !important;
+  box-shadow: 0 0 0 4px rgba(221, 184, 255, 0.12) !important;
+  outline: none;
+}
+
+@mixin amethyst-shadow {
+  box-shadow: 0 4px 24px rgba(221, 184, 255, 0.06), 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+@mixin truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

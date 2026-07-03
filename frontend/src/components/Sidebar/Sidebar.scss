@@ -1,0 +1,186 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.sidebar {
+  width: $sidebar-width;
+  min-width: $sidebar-width;
+  height: 100%;
+  background: $surface-container-lowest;
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  // Brand
+  &__brand {
+    display: flex;
+    flex-direction: column;
+    padding: $spacing-md $spacing-md $spacing-sm;
+  }
+
+  &__brand-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: $on-surface;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+
+  &__brand-sub {
+    font-size: $font-size-label-sm;
+    font-weight: 500;
+    color: $outline;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-top: 2px;
+  }
+
+  // Sessions area — takes all remaining space
+  &__sessions {
+    flex: 1;
+    overflow-y: auto;
+    padding: $spacing-sm $spacing-sm 0;
+    min-height: 0;
+  }
+
+  &__section-label {
+    font-size: $font-size-label-sm;
+    font-weight: 500;
+    color: $outline;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: $spacing-base $spacing-base 6px;
+  }
+
+  &__skeleton {
+    padding: $spacing-base;
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-base;
+  }
+
+  &__empty {
+    font-size: $font-size-label-sm;
+    color: $outline-variant;
+    text-align: center;
+    padding: $spacing-md $spacing-base;
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    width: 100%;
+    padding: 7px $spacing-sm;
+    border-radius: $radius;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.15s ease;
+
+    &:hover {
+      background: rgba(221, 184, 255, 0.06);
+
+      .sidebar__item-title { color: $on-surface; }
+    }
+
+    &.is-active {
+      background: rgba(221, 184, 255, 0.1);
+      box-shadow: inset 2px 0 0 $primary;
+
+      .sidebar__item-title { color: $on-surface; }
+    }
+  }
+
+  &__item-title {
+    font-family: $font-family;
+    font-size: $font-size-label-md;
+    font-weight: 400;
+    color: $on-surface-variant;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    transition: color 0.15s ease;
+  }
+
+  &__item-time {
+    font-family: $font-family;
+    font-size: 11px;
+    color: $outline;
+    line-height: 1;
+  }
+
+  // Footer — pinned to bottom
+  &__footer {
+    padding: $spacing-sm;
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-base;
+  }
+
+  // New Chat button — prominent pill at bottom
+  &__new-chat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: $spacing-base;
+    width: 100%;
+    padding: 10px $spacing-md;
+    border-radius: $radius-full;
+    border: 1px solid rgba(221, 184, 255, 0.3);
+    background: rgba(221, 184, 255, 0.1);
+    color: $primary;
+    font-family: $font-family;
+    font-size: $font-size-label-md;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+
+    &:hover {
+      background: rgba(221, 184, 255, 0.18);
+      border-color: rgba(221, 184, 255, 0.5);
+      box-shadow: 0 0 12px rgba(221, 184, 255, 0.12);
+    }
+  }
+
+  // Account row
+  &__account {
+    display: flex;
+    align-items: center;
+    gap: $spacing-sm;
+    padding: 6px $spacing-base;
+    border-radius: $radius;
+    cursor: pointer;
+    transition: background 0.15s ease;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.03);
+    }
+  }
+
+  &__account-avatar {
+    @include flex-center;
+    width: 26px;
+    height: 26px;
+    border-radius: $radius-full;
+    background: $surface-container-high;
+    border: 1px solid $outline-variant;
+    color: $outline;
+    flex-shrink: 0;
+  }
+
+  &__account-name {
+    font-size: $font-size-label-md;
+    color: $on-surface-variant;
+  }
+}

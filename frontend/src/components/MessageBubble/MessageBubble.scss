@@ -1,0 +1,115 @@
+@use 'sass:color';
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+// ── User bubble ────────────────────────────────────────────
+.user-bubble-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: $spacing-md;
+}
+
+.user-bubble {
+  max-width: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: $radius-lg $radius-lg $radius-sm $radius-lg;
+  padding: $spacing-sm $spacing-md;
+
+  &__text {
+    font-size: $font-size-body-md;
+    color: $on-surface;
+    line-height: 1.55;
+    margin: 0;
+    word-break: break-word;
+  }
+
+  &__time {
+    display: block;
+    font-size: 11px;
+    color: $outline;
+    margin-top: 4px;
+    text-align: right;
+  }
+}
+
+// ── AI bubble ─────────────────────────────────────────────
+.ai-bubble {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: $spacing-sm;
+  margin-bottom: $spacing-md;
+
+  &__avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: $radius-full;
+    background: rgba(221, 184, 255, 0.08);
+    border: 1px solid rgba(221, 184, 255, 0.2);
+    color: $primary;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  &__card {
+    @include glass-card;
+    padding: $spacing-md $spacing-md $spacing-sm;
+    @include amethyst-shadow;
+    flex: 1;
+    min-width: 0;
+  }
+
+  // Footer row: feedback left, time right
+  &__footer {
+    @include flex-between;
+    margin-top: $spacing-sm;
+    padding-top: $spacing-sm;
+    border-top: 1px solid rgba(255, 255, 255, 0.04);
+  }
+
+  &__feedback {
+    display: flex;
+    gap: 4px;
+  }
+
+  &__fb-btn {
+    @include flex-center;
+    width: 26px;
+    height: 26px;
+    border: 1px solid $outline-variant;
+    border-radius: $radius;
+    background: transparent;
+    color: $outline;
+    cursor: pointer;
+    transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+
+    &:hover {
+      color: $primary;
+      border-color: rgba(221, 184, 255, 0.35);
+      background: rgba(221, 184, 255, 0.06);
+    }
+
+    &.is-active {
+      color: $primary;
+      border-color: rgba(221, 184, 255, 0.5);
+      background: rgba(221, 184, 255, 0.1);
+    }
+
+    &.is-down.is-active {
+      color: $error;
+      border-color: rgba(255, 180, 171, 0.5);
+      background: rgba(255, 180, 171, 0.08);
+    }
+  }
+
+  &__time {
+    font-size: 11px;
+    color: $outline;
+  }
+}
