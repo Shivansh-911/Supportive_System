@@ -1,0 +1,35 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: publive_cx_rag_pg
+    environment:
+      POSTGRES_USER: publive
+      POSTGRES_PASSWORD: publive
+      POSTGRES_DB: publive_cx_rag
+    ports:
+      - "5432:5432"
+    volumes:
+      - publive_cx_rag_pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U publive -d publive_cx_rag"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: publive_cx_rag_pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@publive.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "8000:80"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - publive_cx_rag_pgadmin_data:/var/lib/pgadmin
+
+volumes:
+  publive_cx_rag_pg_data:
+  publive_cx_rag_pgadmin_data:

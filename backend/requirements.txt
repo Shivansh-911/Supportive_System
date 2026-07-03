@@ -1,0 +1,29 @@
+# Django
+django==6.0.6
+djangorestframework==3.17.1
+django-environ==0.13.0
+
+# Database
+psycopg2-binary==2.9.12
+pgvector==0.4.2
+
+# LLM & Embeddings
+anthropic==0.107.1
+voyageai==0.4.0
+openai==2.41.0
+
+# Pipeline / Ingestion
+beautifulsoup4==4.15.0
+lxml==6.1.1
+html2text==2025.4.15
+langgraph==1.2.4
+langchain-core==1.4.1
+langchain-anthropic==1.4.4
+langchain-openai==1.2.2
+
+# Chunking
+tiktoken==0.13.0
+langchain-text-splitters==1.1.2
+
+# Monitoring
+newrelic

@@ -1,0 +1,894 @@
+[
+  {
+    "folder_id": 89000160297,
+    "thumbs_up": 1,
+    "hits": 108,
+    "updated_at": "2025-01-20T15:57:18+05:30",
+    "category_name": "Content Creation",
+    "tags": [
+      {
+        "name": "web story"
+      },
+      {
+        "name": "Article Format"
+      },
+      {
+        "name": "Dashboard"
+      }
+    ],
+    "thumbs_down": 0,
+    "status": 2,
+    "folder_name": "Content Creation",
+    "id": 89000015222,
+    "title": "Feature Update: Web Story Enhanced ",
+    "created_at": "2023-04-05T19:46:57+05:30",
+    "category_id": 89000064615,
+    "parsed": {
+      "sections": [
+        {
+          "heading": null,
+          "heading_level": null,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "We are thrilled to announce a significant update to the Web story that we believe will greatly enhance your experience and offer even more value to your website and readers. Included with more enhanced UI & powerful addition to customization of slides, templates, control over CTA links, and much more. Key Highlights of the Enhancement: Web story & slides customization is a single window Provision to upload media, re-arrange slides by drag & drop at the bottom, delete slides, total slides count Provision to Upload Images Re-arrange slides by drag & drop Pre-defined templates Choose the best format that meets your requirement Templates Slide-wise settings Fields for Title & Description as optional fields, CTA link & texts Slide Settings Now, to get started, go to Create/Edit in the dashboard. Step 1 : Choose Web Story as shown below Step 2 : Click \"Create web story\" Step 3 : Upload the images Step 4 : Choose the template that works for you Step 5: Fill in the details for slide-wise settings, title, description, CTA text (Text of the CTA button), CTA link (hyperlink of the CTA button) Note : \"Show same CTA on all slides\", if enabled, the CTA link and text mentioned in the first slide will be auto-filled for the rest of the slides. This is just to ease the user experience Once done, click save View in Editor View: Editor View in Website | Desktop Website: Desktop View in Website | Mobile Website: Mobile Web stories have become an increasingly popular format for digital publishers, offering several benefits that can enhance user engagement and content visibility. These short, visually-rich, and interactive narratives are designed to capture the audience's attention and deliver information in an easily consumable manner. How does this feature help Digital Publishers? Enhanced User Engagement: Web stories are visually captivating and offer an immersive experience with images. This leads to higher user engagement, encouraging visitors to spend more time on your website. Interactive Elements: Web stories can incorporate interactive elements like clickable buttons, and swipeable carousels allowing users to engage with the content in a more dynamic way Short and Snappy: Web stories are typically concise and to the point. They aim to deliver information or a narrative in a brief and focused manner, making them ideal for capturing attention in today's fast-paced digital environment Discoverability: Web stories can be shared and discovered across various platforms, including Google Search, social media, and websites. They can appear in Google's \"Discover\" feed, search results carousel, and other prominent spaces, increasing their visibility Storytelling: The format lends itself well to storytelling, enabling creators to structure their content in a narrative sequence. This can be particularly effective for conveying step-by-step tutorials, news updates, travel guides, and more. SEO Benefits: Web stories can contribute to improved search engine optimization (SEO) by appearing in relevant search results and Google's \"Discover\" feed. They can attract organic traffic and provide a new avenue for content discovery. Monetization Opportunities: Publishers can leverage web stories for monetization through sponsored content, affiliate marketing, or advertising, potentially generating additional revenue streams. Social Media Integration: Web stories can be shared on social media platforms like Instagram, Facebook, and Snapchat, expanding your content's reach beyond your website. Overall, Web stories provide an opportunity for publishers, brands, and content creators to engage their audience in a fresh and visually captivating way. Incorporating web stories into your publishing strategy can lead to increased engagement, visibility, and user satisfaction, ultimately contributing to your website's growth and success."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "folder_id": 89000160297,
+    "thumbs_up": 0,
+    "hits": 129,
+    "updated_at": "2025-01-20T15:57:18+05:30",
+    "category_name": "Content Creation",
+    "tags": [
+      {
+        "name": "embed social posts"
+      },
+      {
+        "name": "embed"
+      },
+      {
+        "name": "embed posts"
+      }
+    ],
+    "thumbs_down": 0,
+    "status": 2,
+    "folder_name": "Content Creation",
+    "id": 89000015788,
+    "title": "How to embed social posts within article?",
+    "created_at": "2023-05-08T17:26:58+05:30",
+    "category_id": 89000064615,
+    "parsed": {
+      "sections": [
+        {
+          "heading": null,
+          "heading_level": null,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "The Editor supports social post embedding using embed code or smart embeds which is just a copy-paste of URL of the social posts . Supported platforms like Youtube, LinkedIn, Twitter, Facebook, Spotify, and Instagram."
+            },
+            {
+              "type": "paragraph",
+              "text": "Following are the steps to include embed code in the Editor"
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 1: Click Insert"
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 2 : Click Media"
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 3 : Click Embed -> Insert the embed code as shown below"
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 4 : Below is the representation of the embedded post within the Editor"
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 5: Below is the representation of the embedded posts"
+            },
+            {
+              "type": "paragraph",
+              "text": "Note: Use the Preview feature to check the embedded posts"
+            },
+            {
+              "type": "paragraph",
+              "text": "How to get the embed code of the social posts?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Twitter"
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 1 : For Twitter posts, click menu as shown below"
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 2: Click Embed Tweet. Paste the copied embed code in the Editor"
+            },
+            {
+              "type": "paragraph",
+              "text": "Instagram"
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 1: Click Menu -> Embed"
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 2: Click -> Copy Embed Code"
+            },
+            {
+              "type": "paragraph",
+              "text": "YouTube"
+            },
+            {
+              "type": "paragraph",
+              "text": "Click Embed as shown below and copy the code"
+            },
+            {
+              "type": "paragraph",
+              "text": "Likewise for other social posts, follow the similar steps."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "folder_id": 89000160297,
+    "thumbs_up": 0,
+    "hits": 49,
+    "updated_at": "2023-05-23T10:26:43+05:30",
+    "category_name": "Content Creation",
+    "tags": [
+      {
+        "name": "Schedule"
+      },
+      {
+        "name": "Schedule post"
+      },
+      {
+        "name": "Schedule and publish"
+      },
+      {
+        "name": "auto-publish"
+      },
+      {
+        "name": "Publive"
+      },
+      {
+        "name": "Dashboard"
+      }
+    ],
+    "thumbs_down": 0,
+    "status": 2,
+    "folder_name": "Content Creation",
+    "id": 89000015908,
+    "title": "Schedule and Publish Post ",
+    "created_at": "2023-05-23T10:17:42+05:30",
+    "category_id": 89000064615,
+    "parsed": {
+      "sections": [
+        {
+          "heading": null,
+          "heading_level": null,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scheduling posts is supported in the PubLive Dashboard. Following are the steps to schedule and publish a post"
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 1"
+            },
+            {
+              "type": "paragraph",
+              "text": "In the dashboard, on create/edit mode of an article, click the timer icon as shown below"
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 2"
+            },
+            {
+              "type": "paragraph",
+              "text": "Schedule the post for a specific date and time and click Schedule Post."
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 3"
+            },
+            {
+              "type": "paragraph",
+              "text": "Once the date and time are set, the timer button turns green as shown below. Click Scheduled Publish"
+            },
+            {
+              "type": "paragraph",
+              "text": "The scheduled post will be automatically moved to the scheduled section in the dashboard"
+            },
+            {
+              "type": "paragraph",
+              "text": "Henceforth, after the above step, the post will be automatically published at the set date and time."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "folder_id": 89000160297,
+    "thumbs_up": 1,
+    "hits": 48,
+    "updated_at": "2025-01-20T15:57:18+05:30",
+    "category_name": "Content Creation",
+    "tags": [
+      {
+        "name": "Multi-author credit"
+      },
+      {
+        "name": "multiple authors"
+      },
+      {
+        "name": "credit"
+      },
+      {
+        "name": "Dashboard"
+      },
+      {
+        "name": "Publive"
+      }
+    ],
+    "thumbs_down": 2,
+    "status": 2,
+    "folder_name": "Content Creation",
+    "id": 89000017191,
+    "title": "Multi-Author Credits",
+    "created_at": "2023-09-22T17:42:18+05:30",
+    "category_id": 89000064615,
+    "parsed": {
+      "sections": [
+        {
+          "heading": null,
+          "heading_level": null,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "We are excited to announce a new feature update that will further enhance collaboration and recognition within our PubLive platform: the Multi-Author Credit Feature . This enhancement is designed to make it even easier for teams of writers, creators, and contributors to receive proper acknowledgment for their valuable contributions to your content."
+            },
+            {
+              "type": "paragraph",
+              "text": "To an existing feature of the credit field in the dashboard, now you can add multiple members to whom you wish to give credit for the article."
+            },
+            {
+              "type": "paragraph",
+              "text": "To get started, go to create/edit section. Add members in the credit field. Preview once before publishing as a good practice. Article will be published under the credit name."
+            },
+            {
+              "type": "paragraph",
+              "text": "Note : Max two members from the credit field will be shown in the article on website. This is to maintain the UI standard of a website."
+            }
+          ]
+        },
+        {
+          "heading": "Website View",
+          "heading_level": null,
+          "content": []
+        },
+        {
+          "heading": "Credit column of the Published section, Dashboard",
+          "heading_level": null,
+          "content": []
+        },
+        {
+          "heading": "How does this feature help Digital Publishers?",
+          "heading_level": null,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Shared Attribution: With this feature, multiple authors can now be credited and acknowledged within a single piece of content. Each contributor's name and role will be prominently displayed, showcasing the collaborative effort behind the creation"
+            },
+            {
+              "type": "paragraph",
+              "text": "Enhanced Engagement : By recognizing and celebrating individual authors, our platform encourages a stronger sense of ownership and engagement among contributors, leading to even more exceptional content"
+            },
+            {
+              "type": "paragraph",
+              "text": "Effortless Implementation: Our user-friendly interface makes it simple to add or update author information for each piece of content. You can easily manage and edit author credits as needed."
+            },
+            {
+              "type": "paragraph",
+              "text": "We value the collaborative spirit that drives publishers and their team, and the Multi-Author Credit Feature is a testament to the commitment of recognizing and celebrating the collective efforts of contributors."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "folder_id": 89000160297,
+    "thumbs_up": 1,
+    "hits": 50,
+    "updated_at": "2023-11-07T10:00:10+05:30",
+    "category_name": "Content Creation",
+    "tags": [],
+    "thumbs_down": 0,
+    "status": 2,
+    "folder_name": "Content Creation",
+    "id": 89000017562,
+    "title": "Embedding Maps in Editor",
+    "created_at": "2023-11-07T09:59:31+05:30",
+    "category_id": 89000064615,
+    "parsed": {
+      "sections": [
+        {
+          "heading": null,
+          "heading_level": null,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "To embed maps in an article/custom/static page, the following are the steps"
+            },
+            {
+              "type": "paragraph",
+              "text": "In Google Maps, click share"
+            },
+            {
+              "type": "paragraph",
+              "text": "Click Embed a map -> Copy HTML code"
+            },
+            {
+              "type": "paragraph",
+              "text": "In Editor, go to Insert -> Media"
+            },
+            {
+              "type": "paragraph",
+              "text": "In the Embed tab -> Paste the embed code -> Click Save"
+            },
+            {
+              "type": "paragraph",
+              "text": "The map will be available in the Editor"
+            },
+            {
+              "type": "paragraph",
+              "text": "In website"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "folder_id": 89000160297,
+    "thumbs_up": 0,
+    "hits": 107,
+    "updated_at": "2025-01-20T15:57:18+05:30",
+    "category_name": "Content Creation",
+    "tags": [
+      {
+        "name": "live blog"
+      },
+      {
+        "name": "Dashboard"
+      },
+      {
+        "name": "Publive"
+      },
+      {
+        "name": "live article"
+      },
+      {
+        "name": "live posts"
+      }
+    ],
+    "thumbs_down": 1,
+    "status": 2,
+    "folder_name": "Content Creation",
+    "id": 89000017923,
+    "title": "Live Blog feature and its workflow",
+    "created_at": "2023-12-21T10:24:24+05:30",
+    "category_id": 89000064615,
+    "parsed": {
+      "sections": [
+        {
+          "heading": null,
+          "heading_level": null,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "We are thrilled to announce a new feature that will enable publishers to create Live Blogs , a real-time online publishing tool that allows content creators to provide continuous updates on a specific event, topic, or news story as it unfolds. This feature is often used to keep their audiences informed and engaged. Note : This feature is available for publishers under Growth, Advanced, or Premium Tiers Get Started Step 1: Creating Live Blog Click create -> choose \"Live Blogs\" format to create a live blog Step 2: Follow the usual procedure of creating the post and publishing it. To know more, https://help.thepublive.com/support/solutions/articles/89000018849-enriched-and-advanced-ui-for-article-creation-workflow Step 3: Live Blog available under Live Running Posts The live blog will be live after publishing the posts and will be listed under Live Running Posts in the published section as shown below Step 4: Adding Live Updates Now, you can start adding live updates directly by clicking Update Note: Can Preview/Edit/Mark as complete the Live blog posts directly from the published section. Mark as complete saves the post as a normal article. You can re-edit and add new updates when required which makes the live blog active and running. Under the tab Updates , click Create New Update Provide Title and Content. Click Publish New Update Once Published, below is how the updates look in the editor To Pin/Edit/Delete the Live Update, go to the extended menu as shown below Also, to edit the Live Blog, go to Main Blog tab as shown below Website | Live Blog Indicator on the article page Website | Live Updates Homepage | Live Blogs How does this feature help Digital Publishers? Real-Time Reporting: Live blogs enable publishers to report on breaking news, events, or developments in real-time. This timeliness can help publishers stay competitive in the fast-paced world of online journalism and content creation. Increased Traffic: Live blogs attract visitors who seek up-to-the-minute information, which can lead to increased website traffic and engagement. Readers are more likely to return to the live blog to get the latest updates. Audience Engagement : Live blogs foster reader engagement and interaction. Users can comment, ask questions, and share their thoughts in real time. This interaction helps build a community around the content. Monetization Opportunities : Publishers can monetize live blogs through various methods, such as advertising, sponsored content, or affiliate marketing. Popular live blogs covering significant events can be attractive to advertisers. Improved SEO : Regular updates and fresh content in live blogs can improve search engine optimization (SEO). Search engines tend to favor websites that consistently provide valuable and current information, leading to higher search rankings. In summary, live blogs benefit publishers by providing a platform for real-time reporting, increasing website traffic, fostering audience engagement, offering monetization opportunities, improving SEO, delivering comprehensive coverage, archiving valuable content, building user loyalty, and ensuring adaptability across devices and content types. These advantages make live blogs a valuable addition to a publisher's content strategy, particularly for those looking to cover evolving stories and engage their audience in a dynamic way."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "folder_id": 89000160297,
+    "thumbs_up": 1,
+    "hits": 107,
+    "updated_at": "2025-01-20T15:57:18+05:30",
+    "category_name": "Content Creation",
+    "tags": [],
+    "thumbs_down": 0,
+    "status": 2,
+    "folder_name": "Content Creation",
+    "id": 89000018655,
+    "title": "Creating Webstories using AI",
+    "created_at": "2024-05-09T20:09:03+05:30",
+    "category_id": 89000064615,
+    "parsed": {
+      "sections": [
+        {
+          "heading": null,
+          "heading_level": null,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "PubLive leverages the power of artificial intelligence to enhance your storytelling experience like never before. AI-empowered Web Stories offer a plethora of benefits to digital publishers, empowering them to create captivating content and engage their audience more effectively."
+            },
+            {
+              "type": "paragraph",
+              "text": "Following are the steps to get started,"
+            },
+            {
+              "type": "paragraph",
+              "text": "You can create AI-empowered web stories for any published posts."
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 1: Go to the Published Section of the dashboard."
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 2: Go to the extended menu c orresponding to the article for which the web story has to be created -> click Create AI Web Story as shown in the screenshot below."
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 3: It will take some time to generate the AI Web Story"
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 4: The article will be generated from the existing post."
+            }
+          ]
+        },
+        {
+          "heading": "",
+          "heading_level": null,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Step 5: You can review and make changes if any to the slides by editing the web story as we do for manual web story as shown below"
+            },
+            {
+              "type": "paragraph",
+              "text": "Link to know more about creating, editing and managing manual web stories - https://blog.thepublive.com/product-update/feature-update-announcement-web-story-enhanced",
+              "links": [
+                {
+                  "text": "https://blog.thepublive.com/product-update/feature-update-announcement-web-story-enhanced",
+                  "url": "https://blog.thepublive.com/product-update/feature-update-announcement-web-story-enhanced"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 6: Preview the web story and click Publish"
+            }
+          ]
+        },
+        {
+          "heading": "Website | AI Web Story:",
+          "heading_level": null,
+          "content": []
+        },
+        {
+          "heading": "",
+          "heading_level": null,
+          "content": []
+        },
+        {
+          "heading": "",
+          "heading_level": null,
+          "content": []
+        },
+        {
+          "heading": "",
+          "heading_level": null,
+          "content": []
+        },
+        {
+          "heading": "",
+          "heading_level": null,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Website | Original/Parent Posts: Each parent/original post will have a button \"Read in Short\" which indicates web story is available. People can read the short version of these posts by directly clicking the button. The web story and the original article are linked together with relevant CTA links and buttons"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "folder_id": 89000160297,
+    "thumbs_up": 0,
+    "hits": 70,
+    "updated_at": "2025-01-20T15:57:19+05:30",
+    "category_name": "Content Creation",
+    "tags": [
+      {
+        "name": "Tags"
+      },
+      {
+        "name": "Meta Keywords"
+      },
+      {
+        "name": "Meta News Keywords"
+      },
+      {
+        "name": "Focus Keyphrases"
+      }
+    ],
+    "thumbs_down": 0,
+    "status": 2,
+    "folder_name": "Content Creation",
+    "id": 89000019835,
+    "title": "Understanding Tags, Meta Keywords, Meta News Keywords, and Focus Keyphrases",
+    "created_at": "2024-12-31T12:36:51+05:30",
+    "category_id": 89000064615,
+    "parsed": {
+      "sections": [
+        {
+          "heading": null,
+          "heading_level": null,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Tags : Tags are specific and directly related to the content or topic of the article."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tag Opition on Dashboard: content creation >> Post property >> Tags"
+            },
+            {
+              "type": "paragraph",
+              "text": "Meta Keywords: Although less commonly used by search engines today, meta keywords can still be useful for niche purposes or internal tracking."
+            },
+            {
+              "type": "paragraph",
+              "text": "Meta Keywords Opition on Dashboard: content creation >> Advanced property >> Meta Keywords"
+            }
+          ]
+        },
+        {
+          "heading": "",
+          "heading_level": null,
+          "content": []
+        },
+        {
+          "heading": "",
+          "heading_level": null,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Meta News Keywords: These keywords assist Google News in understanding the content's topic."
+            },
+            {
+              "type": "paragraph",
+              "text": "Meta News Keywords Opition on Dashboard: content creation >> Advanced property >> Meta News Keywords"
+            },
+            {
+              "type": "paragraph",
+              "text": "Focus Keyphrases: The Focus Keyphrase field highlights the primary keyword or phrase representing your content's main topic. It is the term you aim to rank for in search engine results. Publive SEO engine uses this focus keyphrase to analyze your content and provides recommendations in the SEO warnings section for enhancing the title, meta description, and"
+            },
+            {
+              "type": "paragraph",
+              "text": "other elements."
+            },
+            {
+              "type": "paragraph",
+              "text": "Focus Keyphrases Opition on Dashboard: content creation >> Post property >> Focus Keyphrases"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "folder_id": 89000160298,
+    "thumbs_up": 0,
+    "hits": 0,
+    "updated_at": "2023-05-29T18:45:41+05:30",
+    "category_name": "Content Distribution",
+    "tags": [],
+    "thumbs_down": 0,
+    "status": 1,
+    "folder_name": "Content Distribution",
+    "id": 89000015952,
+    "title": "Send Newsletters to the subscribed members",
+    "created_at": "2023-05-29T18:45:41+05:30",
+    "category_id": 89000064616,
+    "parsed": {
+      "sections": []
+    }
+  },
+  {
+    "folder_id": 89000160298,
+    "thumbs_up": 0,
+    "hits": 0,
+    "updated_at": "2025-08-11T15:33:55+05:30",
+    "category_name": "Content Distribution",
+    "tags": [],
+    "thumbs_down": 0,
+    "status": 1,
+    "folder_name": "Content Distribution",
+    "id": 89000020364,
+    "title": "Reader's Segment Creation and Management",
+    "created_at": "2025-08-11T15:33:55+05:30",
+    "category_id": 89000064616,
+    "parsed": {
+      "sections": [
+        {
+          "heading": null,
+          "heading_level": null,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Segmentation"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "folder_id": 89000160302,
+    "thumbs_up": 0,
+    "hits": 0,
+    "updated_at": "2025-01-20T15:57:18+05:30",
+    "category_name": "Personalization & Configuration",
+    "tags": [],
+    "thumbs_down": 0,
+    "status": 1,
+    "folder_name": "Personalization & Configuration",
+    "id": 89000018609,
+    "title": "What is Configuration Section in dashboard",
+    "created_at": "2024-04-29T23:28:04+05:30",
+    "category_id": 89000064621,
+    "parsed": {
+      "sections": [
+        {
+          "heading": null,
+          "heading_level": null,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Step 1:"
+            },
+            {
+              "type": "paragraph",
+              "text": "Go to the configuration section"
+            }
+          ]
+        },
+        {
+          "heading": "Step 2: General Settings",
+          "heading_level": null,
+          "content": []
+        },
+        {
+          "heading": "",
+          "heading_level": null,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Title & Description - To provide site title and description"
+            }
+          ]
+        },
+        {
+          "heading": "",
+          "heading_level": null,
+          "content": []
+        },
+        {
+          "heading": "Timezone - By default it is IST but can be changed according to the publisher's timezone for your site",
+          "heading_level": null,
+          "content": []
+        },
+        {
+          "heading": "",
+          "heading_level": null,
+          "content": []
+        },
+        {
+          "heading": "",
+          "heading_level": null,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Publication Language - To set Website Language"
+            }
+          ]
+        },
+        {
+          "heading": "Step 3: Website specific settings",
+          "heading_level": null,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Navigation - To set Navbar and Footer"
+            },
+            {
+              "type": "paragraph",
+              "text": "Navbar - To set navbar for your site. To know more, refer to this help doc https://publive.freshdesk.com/a/solutions/articles/89000018008",
+              "links": [
+                {
+                  "text": "https://publive.freshdesk.com/a/solutions/articles/89000018008",
+                  "url": "https://publive.freshdesk.com/a/solutions/articles/89000018008"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "folder_id": 89000105764,
+    "thumbs_up": 0,
+    "hits": 83,
+    "updated_at": "2025-01-20T15:57:19+05:30",
+    "category_name": "Account Settings",
+    "tags": [
+      {
+        "name": "zapier"
+      },
+      {
+        "name": "webhooks"
+      }
+    ],
+    "thumbs_down": 0,
+    "status": 2,
+    "folder_name": "Account Settings",
+    "id": 89000018984,
+    "title": "How to use PubLive and Zapier together?",
+    "created_at": "2024-07-29T13:14:02+05:30",
+    "category_id": 89000064624,
+    "parsed": {
+      "sections": [
+        {
+          "heading": null,
+          "heading_level": null,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Zapier uses triggers and actions to create seamless automation. You can now use multiple applications within PubLive with Zapier automation services."
+            },
+            {
+              "type": "paragraph",
+              "text": "Here are some examples:"
+            },
+            {
+              "type": "paragraph",
+              "text": "New Article Published in Publive (Trigger): When a new article is published in Publive, Zapier can automatically share the post to social media platforms such as Facebook (Action)."
+            },
+            {
+              "type": "paragraph",
+              "text": "How to Set Up Zapier with Publive"
+            },
+            {
+              "type": "paragraph",
+              "text": "1. Choose Your Trigger:"
+            },
+            {
+              "type": "paragraph",
+              "text": "Decide which event in Publive will start the automation (e.g., a new article is published)."
+            },
+            {
+              "type": "paragraph",
+              "text": "2. Select Your Action:"
+            },
+            {
+              "type": "paragraph",
+              "text": "Choose the action that will be performed when the trigger event occurs (e.g., share a post on social media or add a subscriber to an email list)."
+            },
+            {
+              "type": "paragraph",
+              "text": "3. Configure Your Zap:"
+            },
+            {
+              "type": "paragraph",
+              "text": "Log in to your Zapier account and create a new Zap."
+            },
+            {
+              "type": "paragraph",
+              "text": "Select Publive as your trigger app and choose the appropriate trigger event."
+            },
+            {
+              "type": "paragraph",
+              "text": "Connect your Publive account and configure the trigger settings."
+            },
+            {
+              "type": "paragraph",
+              "text": "Select the action app (e.g., Facebook) and configure the action settings."
+            },
+            {
+              "type": "paragraph",
+              "text": "Test your Zap to ensure it works correctly."
+            },
+            {
+              "type": "paragraph",
+              "text": "4. Activate Your Zap:"
+            },
+            {
+              "type": "paragraph",
+              "text": "Once your Zap is set up and tested, turn it on to start automating your workflow."
+            },
+            {
+              "type": "paragraph",
+              "text": "Once set up, Zaps will automatically run in the background without you doing anything else. Thus, you can automate repetitive tasks such as sharing stories on social media."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "folder_id": 89000161345,
+    "thumbs_up": 0,
+    "hits": 0,
+    "updated_at": "2025-04-04T13:25:08+05:30",
+    "category_name": "Internal Sales",
+    "tags": [
+      {
+        "name": "electron"
+      }
+    ],
+    "thumbs_down": 0,
+    "status": 2,
+    "folder_name": "Requirement",
+    "id": 89000019995,
+    "title": "Listing page",
+    "created_at": "2025-04-03T12:28:22+05:30",
+    "category_id": 89000064863,
+    "parsed": {
+      "sections": [
+        {
+          "heading": null,
+          "heading_level": null,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "https://www.saurenergy.com/energy-jobs",
+              "links": [
+                {
+                  "text": "https://www.saurenergy.com/energy-jobs",
+                  "url": "https://www.saurenergy.com/energy-jobs"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "this is one example of a Job listing page"
+            },
+            {
+              "type": "paragraph",
+              "text": "How can this be achieved?"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
