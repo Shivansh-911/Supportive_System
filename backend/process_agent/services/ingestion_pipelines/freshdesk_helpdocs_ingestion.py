@@ -86,9 +86,9 @@ class FreshdeskHelpdocsIngestion(BaseIngestion):
         source_type       = event.source_type
         source_title      = event.source_title
         source_url        = event.source_url
-        source_created_at = event.source_created_at
         source_updated_at = event.source_updated_at
         raw_payload       = event.source_payload
+        source_created_at = raw_payload.get('created_at')
         logger.debug(
             "Step 1: Destructured event source_id=%s source_type=%s source_title=%r",
             source_id, source_type, source_title,
