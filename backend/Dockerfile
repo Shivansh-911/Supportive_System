@@ -18,4 +18,4 @@ COPY --from=builder /install /usr/local
 COPY --chown=app:app . .
 USER app
 EXPOSE 8000
-CMD ["sh","-c","python manage.py migrate --noinput && gunicorn core.wsgi:application --bind 0.0.0.0:${PORT:-8000} --workers 3 --timeout 120 --access-logfile - --error-logfile -"]
+CMD ["sh","-c","python manage.py makemigrations --noinput && python manage.py migrate --noinput && gunicorn core.wsgi:application --bind 0.0.0.0:${PORT:-8000} --workers 3 --timeout 120 --access-logfile - --error-logfile -"]
