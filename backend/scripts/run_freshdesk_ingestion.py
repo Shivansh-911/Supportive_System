@@ -32,7 +32,7 @@ from process_agent.services.ingestion_pipelines.freshdesk_helpdocs_ingestion imp
 )
 
 
-DEFAULT_INPUT = BASE_DIR / 'JSON files' / 'structured.json'
+DEFAULT_INPUT = BASE_DIR / 'JSON files' / 'unstructured.json'
 
 
 def parse_slice(spec: str) -> slice:
