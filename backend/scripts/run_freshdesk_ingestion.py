@@ -56,7 +56,6 @@ def build_event(article: dict) -> SyncEvent:
         source_title=article.get('title', ''),
         source_url=f'https://help.thepublive.com/support/solutions/articles/{source_id}',
         event_type=EventType.CREATED,
-        source_created_at=parse_iso(article.get('created_at')),
         source_updated_at=parse_iso(article.get('updated_at')),
         source_payload=article,
     )
