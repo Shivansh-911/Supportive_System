@@ -15,6 +15,7 @@ def load_history(state: OrchestratorAgentState) -> dict:
         last_qa_pair = {
             "id": last_message.request_id,
             "question": last_message.raw_query,
+            "rewritten_query": last_message.rewritten_query,
             "answer": last_message.raw_answer,
             "intent": last_message.intent,
         }

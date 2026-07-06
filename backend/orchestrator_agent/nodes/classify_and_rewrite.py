@@ -21,10 +21,12 @@ class ClassifyAndRewriteOutput(BaseModel):
 def classify_and_rewrite(state: OrchestratorAgentState) -> dict:
     logger.info("[REQUEST ID: %s] ORCHESTRATOR AGENT => classifying intent and rewriting query", state.request_id)
     last_question = ""
+    last_rewritten_query = ""
     last_answer = ""
     last_intent = ""
     if state.last_qa_pair:
         last_question = state.last_qa_pair.get("question", "")
+        last_rewritten_query = state.last_qa_pair.get("rewritten_query", "")
         last_answer = state.last_qa_pair.get("answer", "")
         last_intent = state.last_qa_pair.get("intent", "")
 
@@ -33,6 +35,7 @@ def classify_and_rewrite(state: OrchestratorAgentState) -> dict:
     user_message = USER_TEMPLATE.format(
         query=state.raw_query,
         last_question=last_question or "None",
+        last_rewritten_query=last_rewritten_query or "None",
         last_answer=last_answer or "None",
         last_intent=last_intent or "None",
         needs_title=needs_title,
