@@ -43,8 +43,8 @@ class Chunk(models.Model):
     context_prefix  = models.TextField(null=True, blank=True)
     chunk_metadata        = models.JSONField(default=dict)
     created_at      = models.DateTimeField(auto_now_add=True)
-    deleted         = models.BooleanField(default=None)
-    deleted_at      = models.DateTimeField()
+    deleted         = models.BooleanField(default=False)
+    deleted_at      = models.DateTimeField(null=True, blank=True)
 
     class Meta:
         db_table = 'chunks'
