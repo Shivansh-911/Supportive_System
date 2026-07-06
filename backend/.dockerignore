@@ -12,5 +12,4 @@ vector_chunks.txt
 fused_chunk.txt
 bm25_chunks.txt
 tests/
-JSON files/
 .DS_Store
